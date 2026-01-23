@@ -1,0 +1,18 @@
+lengujaes = ["Python", "Java", "C++", "JavaScript", "Ruby"]
+lengujaes.insert(2, "C#")
+print(lengujaes)
+lengujaes.append("Go")
+print(lengujaes)
+lengujaes.remove("JavaScript")
+print(lengujaes)
+lengujaes.pop()
+print(lengujaes)
+lengujaes.sort()
+print(lengujaes)
+lengujaes.sort(reverse=True)
+print(lengujaes)
+print(len(lengujaes))
+print(lengujaes.index("C#"))
+print(lengujaes.count("Python"))
+
+print("Python" in lengujaes)
